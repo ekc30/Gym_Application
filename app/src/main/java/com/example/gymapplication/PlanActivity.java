@@ -73,6 +73,7 @@ public class PlanActivity extends AppCompatActivity {
 
     private void setEditOnClickListeners() {
         final Intent intent = new Intent(this, EditActivity.class);
+
         mondayEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
